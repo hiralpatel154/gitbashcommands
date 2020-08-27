@@ -1,0 +1,35 @@
+# Open git bash
+$ pwd
+$ cd "C:\path of your project folder"
+$ git config --global user.name "Your name"
+$ git config --global user.email "Your emailid"
+$ git config --global push.default matching
+$ git config --global alias.co checkout
+$ git init
+$ ls
+$ git add .
+$ git commit -am 'Initial Commit'
+# if .ssh directory is not in your computer ---> mkdir ~/.ssh
+$ cd ~/.ssh
+pwd
+$ ls
+$ ssh-keygen.exe
+$ ls
+
+# if key is not exist already ---> cat id_rsa.pub
+# copy the key and paste it in github ---> settings ---> SSH Keys(New SSH key) 
+
+$ cd "C:\path of your project folder"
+$ source venv/Scripts/activate
+
+# Create repository on github ---> leave your code as public
+
+$ git remote add origin https://github.com/hiralpatel154/gitbashcommands.git
+$ git branch -M master
+$ git push -u origin master
+
+# If you want to change something in your code then change it and follow the below gitbash command
+
+$ git add .
+$ git commit -am 'Changed about...'
+$ git push
